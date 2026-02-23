@@ -1,0 +1,70 @@
+# =========================
+# Go build artifacts
+# =========================
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.cover
+*.coverprofile
+*.prof
+
+# Binary output
+/bin/
+/build/
+/dist/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# =========================
+# Dependency directories (legacy)
+# =========================
+vendor/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Database
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# If you store sqlite inside folder
+/storage/*.db
+
+# =========================
+# Coverage
+# =========================
+coverage.out
+coverage.html
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
